@@ -8,12 +8,6 @@ tags: [test]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
-**Here is some bold text**
-
-## Here is a secondary heading
-
 
 ##Introduction##
 Spotify is one of the largest music streaming platforms in the world, boasting 155 million premium subscribers and 345 million monthly active users. With that comes a treasure trove of data on users’ preferences when it comes to music. I wanted to dive deeper into some of this data to find insights on what makes certain songs more popular than others. 
