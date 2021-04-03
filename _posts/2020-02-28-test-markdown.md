@@ -1,4 +1,4 @@
-![df_head](https://user-images.githubusercontent.com/27794124/113483584-11689980-9459-11eb-8b0b-460e0a177b94.png)
+
 ---
 layout: post
 title: Popularity of Songs on Spotify
@@ -42,10 +42,12 @@ artists (List of artists mentioned)
 release_date (Date of release mostly in yyyy-mm-dd format, however precision of date may vary)
 name (Name of the song)
 
-![](df_head.png)
+![df_head](https://user-images.githubusercontent.com/27794124/113483584-11689980-9459-11eb-8b0b-460e0a177b94.png)
 
 **Statistical Methods**
 Before I proposed a hypothesis, I wanted to see which feature of this dataset had the highest correlation to ‘popularity’, which measures the popularity of the song from a scale of 0-100. Although the feature ‘explicit’ had the highest correlation to ‘popularity’, I decided to ignore it in my analysis because I found this variable to be arbitrary. After careful examination, I found that ‘instrumentalness’ had the highest correlation to song ‘popularity’ with a correlation of -0.3105. Instrumentalness is a measure from 0 to 1, where a value closer to 1 indicates a greater likelihood the track contains no vocal content. 
+
+![df_corr](https://user-images.githubusercontent.com/27794124/113483649-62788d80-9459-11eb-868f-c2de1976eef7.png)
 
 **I proposed the following hypothesis:**
 
@@ -59,15 +61,15 @@ When preparing the data for analysis, I created a new feature ‘instrumental_le
 
 **Two-sample t-test**
 
+![split](https://user-images.githubusercontent.com/27794124/113483657-6dcbb900-9459-11eb-8fe7-a06fadfc4ab9.png)
 
 **Results**
 
 The resulting t-statistic is 0.0 and p-value is 68.88. Based on these results, we can conclude that we reject the null hypothesis that songs with low ‘instrumentalness’ values and songs with high ‘instrumentalness’ values have the same mean ‘popularity’ scores on Spotify. Instrumental_level does have a significant effect on ‘popularity’ of songs on Spotify.
 
-
-
-
-
+![graph_1](https://user-images.githubusercontent.com/27794124/113483669-7c19d500-9459-11eb-8f3a-d28b860666f1.png)
+![graph_2](https://user-images.githubusercontent.com/27794124/113483673-81771f80-9459-11eb-9a76-39bc6ad9d41a.png)
+![ols](https://user-images.githubusercontent.com/27794124/113483676-83d97980-9459-11eb-8d57-a92f74b5b2c7.png)
 
 
 **Conclusion**
