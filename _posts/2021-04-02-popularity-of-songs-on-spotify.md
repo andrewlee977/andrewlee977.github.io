@@ -67,7 +67,6 @@ When preparing the data for analysis, I created a new feature ‘instrumental_le
 
 The resulting t-statistic is 0.0 and p-value is 68.88. Based on these results, we can conclude that we reject the null hypothesis that songs with low ‘instrumentalness’ values and songs with high ‘instrumentalness’ values have the same mean ‘popularity’ scores on Spotify. Instrumental_level does have a significant effect on ‘popularity’ of songs on Spotify.
 
-![graph_1](https://user-images.githubusercontent.com/27794124/113483669-7c19d500-9459-11eb-8f3a-d28b860666f1.png)
 ![graph_2](https://user-images.githubusercontent.com/27794124/113483673-81771f80-9459-11eb-9a76-39bc6ad9d41a.png)
 ![ols](https://user-images.githubusercontent.com/27794124/113483676-83d97980-9459-11eb-8d57-a92f74b5b2c7.png)
 
@@ -76,4 +75,4 @@ The resulting t-statistic is 0.0 and p-value is 68.88. Based on these results, w
 
 In conclusion, there is a significant relationship between ‘instrumentalness’ and ‘popularity’ of songs on Spotify. When comparing the mean ‘popularity’ scores of songs with high instrumentalness to songs with low instrumentalness, we find that the resulting p-value is 0.0. This indicates that at the 95% significance level, we reject our original null hypothesis. 
 
-Further research should include examining the graphs, as both songs with low instrumentalness and songs with high instrumentalness have a similar distribution in ‘popularity’ of songs.
+Further research should include examining the graphs, as both songs with low instrumentalness and songs with high instrumentalness have a similar distribution in ‘popularity’ of songs. This is one element that was unclear throughout the analysis, as there seems to be little to no difference between the popularity of songs with low and high instrumentalness.
